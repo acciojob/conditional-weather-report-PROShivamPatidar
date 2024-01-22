@@ -14,10 +14,10 @@ class WeatherApp extends React.Component {
 
     return (
       <div style={{ textAlign: 'center', marginTop: '50px' }}>
-        <div style={{ fontSize: '24px', color: temperatureColor }}>
+        <p style={{ fontSize: '24px', color: temperatureColor }}>
           Temperature: {weatherInput.temperature}°C
-        </div>
-        <div>Conditions: {weatherInput.conditions}</div>
+        </p>
+        <p>Conditions: {weatherInput.conditions}</p>
       </div>
     );
   }
